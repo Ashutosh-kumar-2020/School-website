@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login For HSMS</title>
+	<meta name="author" content="David Grzyb">
+    <meta name="description" content="">
+
+    <link href="https://unpkg.com/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        .body-bg {
+            background-color: #9921e8;
+            background-image: linear-gradient(315deg, #9921e8 0%, #5f72be 74%);
+        }
+    </style>
+</head>
+<body class="body-bg min-h-screen pt-12 md:pt-20 pb-6 px-2 md:px-0" style="font-family:'Lato',sans-serif;">
+  
+
+    <section class="max-w-lg mx-auto">
+        <a href="#">
+            <h1 class="text-4xl font-bold text-white text-center">Login Here</h1>
+        </a>
+    </section>
+
+    <main class="bg-white max-w-lg mx-auto p-8 md:p-12 my-10 rounded-lg shadow-2xl">
+        <section>
+            <h3 class="font-bold text-2xl">No Student is allowed to this page</h3>
+            <p class="text-gray-600 pt-2">Sign in to your teacher's account.</p>
+        </section>
+
+        <section class="mt-10">
+            <form class="flex flex-col" method="POST" action="#">
+                <div class="mb-6 pt-3 rounded bg-gray-200">
+                    <label class="block text-gray-700 text-sm font-bold mb-2 ml-3" for="email">Email</label>
+                    <input type="text" id="email" class="bg-gray-200 rounded w-full text-gray-700 focus:outline-none border-b-4 border-gray-300 focus:border-purple-600 transition duration-500 px-3 pb-3">
+                </div>
+                <div class="mb-6 pt-3 rounded bg-gray-200">
+                    <label class="block text-gray-700 text-sm font-bold mb-2 ml-3" for="password">Password</label>
+                    <input type="password" id="password" class="bg-gray-200 rounded w-full text-gray-700 focus:outline-none border-b-4 border-gray-300 focus:border-purple-600 transition duration-500 px-3 pb-3">
+                </div>
+                <div class="flex justify-end">
+                    <a href="#" class="text-sm text-purple-600 hover:text-purple-700 hover:underline mb-6">Forgot your password?</a>
+                </div>
+                <button class="bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 rounded shadow-lg hover:shadow-xl transition duration-200" type="submit">Log In</button>
+            </form>
+        </section>
+    </main>
+
+    <div class="max-w-lg mx-auto text-center mt-12 mb-6">
+        <p class="text-white">Don't have an account? <a class="font-bold hover:underline" href="sign.html">
+        Sign up</a>.</p>
+    </div>
+
+    <div class="max-w-lg mx-auto flex justify-center text-white">
+        <a href="#" class="hover:underline">Contact</a>
+        <span class="mx-3">•</span>
+        <a href="#" class="hover:underline">Privacy</a>
+    </div>
+
+
+
+    <footer class="text-gray-700 body-font" style="background: #a668f7;">
+  <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-no-wrap flex-wrap flex-col">
+    <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+      <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900" 
+      style="color: white;">
+      
+        </svg>
+        <span class="ml-3 text-xl">Hem Sheela Model School</span>
+      </a>
+      <p class="mt-2 text-sm text-gray-500" style="color: white;"
+      >A School Where You Will Find Almost Everything</p>
+    </div>
+    <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center" style="color: white;">
+      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3"
+        style="color: white;">
+      Our Social Links</h2>
+        <nav class="list-none mb-10" style="color: white;">
+          <li>
+            <a class="text-gray-600 hover:text-gray-800" href="http://www.hemsheela.in/www.twitter.com"
+            style="color: white;">
+          Twitter</a>
+          </li>
+          <li>
+            <a class="text-gray-600 hover:text-gray-800" href="http://www.hemsheela.in/www.facebook.com"
+            style="color: white;">
+          Facebook</a>
+          </li>
+          <li>
+            <a class="text-gray-600 hover:text-gray-800" href="http://www.hemsheela.in/www.google.com"
+            style="color: white;">
+          Google+</a>
+          </li>
+          <li>
+            <a class="text-gray-600 hover:text-gray-800" href="http://www.hemsheela.in/www.cbse.nic.in"
+            style="color: white;"
+            >CBSE</a>
+          </li>
+        </nav>
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 w-full px-4" style="color: white;">
+        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3" style="color: white;"
+        >Dhandabag Campus</h2>
+        <nav class="list-none mb-10">
+          <li>
+            <a class="text-gray-600 hover:text-gray-800" href="#" style="color: white;">
+            Rabindra Pally, Durgapur - 713203
+                   Phone :0343-2570918</a>
+          </li>
+          <li>
+            <a class="text-gray-600 hover:text-gray-800" href="#" style="color: white;">
+            hemsheela@gmail.com</a>
+          </li>
+          <li>
+            <a class="text-gray-600 hover:text-gray-800" href="#" style="color: white;"
+            >03432566850</a>
+          </li>
+          <li>
+            
+          </li>
+        </nav>
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 w-full px-4" style="color: white;">
+        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3" style="color: white;"
+        >J.N. Avenue Campus</h2>
+        <nav class="list-none mb-10" style="color: white;">
+          <li>
+            <a class="text-gray-600 hover:text-gray-800" href="#" style="color: white;">
+            Rabindra Pally, Durgapur - 713203
+                     Phone :0343-2570918</a>
+          </li>
+          <li>
+          
+          </li>
+          <li>
+          </li>
+          <li>
+                   </li>
+        </nav>
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 w-full px-4" style="color: white;">
+        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3" style="color: white;">Khatguria Campus</h2>
+        <nav class="list-none mb-10">
+          <li>
+            <a class="text-gray-600 hover:text-gray-800" href="#" style="color: white;">A- Zone , Durgapur- 713204</a>
+          </li>
+          <li>
+           </li>
+          <li>
+         
+          </li>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <div class="bg-gray-200" style="color: white;">
+    <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+      <p class="text-gray-500 text-sm text-center sm:text-left">© Copyright - HSMS DEMO WEBSITE
+        <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" class="text-gray-600 ml-1" target="_blank"></a>
+      </p>
+      <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start" style="color: white;">
+        <a class="text-gray-500">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24" style="color: white;">
+            <a href="http://www.hemsheela.in/www.facebook.com" style="color: white;">
+            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" style="color: white;"></path></a>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <a href="http://www.hemsheela.in/www.twitter.com">
+
+                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path></a>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+            <a href="https://www.instagram.com/explore/locations/399656740417931/hem-sheela-model-school/">
+                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path></a>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500">
+          <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+            <a href="http://www.hemsheela.in/www.cbse.nic.in">
+
+                <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path></a>
+            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+          </svg>
+        </a>
+      </span>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
